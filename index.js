@@ -7,7 +7,7 @@ app.use(cors());
 
 const {createBooksRouter}=require("./createbookrouters")
 const {GetAllBooksRouter}=require("./getallbooksrouters")
-const {EditBooksRouter}=require("./editbookRouter");
+const {EditBooksRouter}=require("./editbookrouter");
 const { SingleBookRouter } = require("./getsinglebookrouter");
 const {SingleBookDeleteRouter}=require("./deletebookrouter")
 
